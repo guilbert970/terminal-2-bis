@@ -1,0 +1,110 @@
+ 740  curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
+  741  unzip planets.zip
+  742  cd Documents
+  743  cd planets
+  744  ls
+  745  mkdir real fictionnal inhabited
+  746  ls
+  747  cd real
+  748  mkdir terrestrial gas-giants dwarf-planets
+  749  ls
+  750  cd ..
+  751  mv pluto.jpeg real/dwarf-planets
+  752  ls
+  753  cd real
+  754  cd dwarf-planets
+  755  ls
+  756  cd ..
+  757  mv earth.jpeg jupiter.jpeg mars.jpeg mercury.jpeg neptune.jpeg saturn.jpeg uranus.jpeg venus.jpeg real/terrestrial
+  758  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg real/gas-giants
+  759  ls
+  760  mkdir fictives
+  761  cd real
+  762  cd gas-giants
+  763  ls
+  764  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictives planets/fictives
+  765  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictives planets
+  766  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictives real/planets
+  767  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg Documents/planets
+  768  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictionnal
+  769  touch --help
+  770  ls
+  771  mv pluto.jpeg real/
+  772  mv arrakis.jpeg Documents/planets/real/fictives/
+  773  mv arrakis.jpeg Documents/planets/real/
+  774  cp arrakis.jpeg cybertron.jpeg coruscant.jpeg real/fictives
+  775  cp arrakis.jpeg cybertron.jpeg coruscant.jpeg fictives/
+  776  cp arrakis.jpeg cybertron.jpeg coruscant.jpeg planets/fictives
+  777  cd ..
+  778  ls
+  779  cd fictives
+  780  cd ..
+  781  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictives/
+  782  cp cybertron.jpeg earth.jpeg coruscant.jpeg arrakis.jpeg inhabited/
+  783  ls
+  784  cp cybertron.jpeg earth.jpeg coruscant.jpeg arrakis.jpeg real/inhabited
+  785  cd real
+  786  cd terrestrial
+  787  ls
+  788  cp earth.jpeg inhabited
+  789  cd ..
+  790  cd fictives
+  791  cd ..
+  792  cd fictives
+  793  ls
+  794  cp arrakis.jpeg cybertron.jpeg coruscant.jpeg inhabited/
+  795  cp arrakis.jpeg inhabited
+  796  cp cybertron.jpeg  inhabited
+  797  cp coruscant.jpeg inhabited
+  798  cd ..
+  799  cd rea
+  800  cd real
+  801  cd inhabited
+  802  cd ..
+  803  cd inhabited
+  804  ls
+  805  cd ..
+  806  ls
+  807  cd terrestrial
+  808  cd real
+  809  cd terrestrial
+  810  ls
+  811  cp earth.jpeg ../inhabited
+  812  cd ..
+  813  cd fictives
+  814  ls
+  815  cp arrakis.jpeg cybertron.jpeg coruscant.jpeg ../inhabited
+  816  cd ..
+  817  cd inhabited
+  818  ls
+  819  cd ..
+  820  cd terrestrial
+  821  cd real
+  822  cd terrestrial
+  823  ls
+  824  cp earth.jpeg ../inhabited
+  825  ls
+  826  cd ..
+  827  cd inhabited
+  828  ls
+  829  cd ..
+  830  cd real
+  831  cp earth.jpeg ../../inhabited
+  832  cd terrestrial
+  833  cp earth.jpeg ../../inhabited
+  834  cd ..
+  835  cd inhabited
+  836  ls
+  837  cd ..
+  838  cd real
+  839  cd dwarf-planets
+  840  rm pluto.jpeg
+  841  ls
+  842  rm -r dwarf-planets
+  843  cd ..
+  844  rm -r dwarf-planets
+  845  ls
+  846  find
+  847  history
+guilbert@guilbert-X540LJ:~/Documents/planets/real$ 
+
